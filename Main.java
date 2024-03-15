@@ -145,7 +145,4 @@ class Student {
     String nama;
     String fakultas;
     String programStudi;
-
-    public Student() {
-    }
 }
