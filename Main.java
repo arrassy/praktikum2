@@ -103,17 +103,14 @@ public class Main {
             return;
         }
 
-        // Buat objek Student baru
         Student student = new Student();
         student.nim = nim;
         student.nama = name;
         student.fakultas = faculty;
         student.programStudi = programStudy;
 
-        // Tambahkan objek Student ke ArrayList userStudent
         userStudent.add(student);
 
-        // Add student to userStudent list or do necessary operations
         System.out.println("Student added successfully.");
     }
 
@@ -124,17 +121,14 @@ public class Main {
         }
     }
     public void displayBooks() {
-        // Display list of available books
         System.out.println("Displaying available books...");
     }
 
     public void borrowBook() {
-        // Logic to borrow a book
         System.out.println("Borrowing a book...");
     }
 
     public void listBorrowedBooks() {
-        // Logic to display list of borrowed books
         System.out.println("Listing borrowed books...");
     }
 }
@@ -144,8 +138,6 @@ class Book {
     String judul;
     String author;
     int stok;
-
-    // Constructors, getters, and setters
 }
 
 class Student {
@@ -155,6 +147,5 @@ class Student {
     String programStudi;
 
     public Student() {
-        // Constructor
     }
 }
